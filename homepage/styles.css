@@ -1,0 +1,455 @@
+
+body{
+  height: 100%;
+
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  color: #3a4d5b;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.container-fluid{
+  /* padding: 7% 15%; */
+}
+
+/* Section */
+.coloured-section{
+  background-color: white;
+}
+.white-section{
+    background-color: #fff;
+}
+
+
+/* Heading */
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1;
+
+}
+.pricing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Allura Logo */
+#alluraLogo{
+   animation: rotate 5s linear infinite;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Navigation bar */
+
+.navbar{
+  padding: 0 0 1.rem 0;
+}
+.navbar-brand{
+  font-size: 3rem;
+  font-weight: large !important;
+
+  font-color:#00DBD0;
+
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+
+  font-weight: 100;
+}
+
+#cu{
+	border-style: solid;
+	border-color:  #00DBD0;
+	border-radius: 5px;
+}
+/* Card */
+#cards{
+  padding-top: 50px;
+  padding-bottom: 65px;
+  background-image: url("images/bg.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+#para{
+
+}
+.cards-title{
+  font-size: 1.3rem;
+}
+.row{
+  padding-top: 50px;
+}
+
+#round {
+  border-radius: 25px;
+  border: 2px dashed black;
+  padding: 10px;
+  width: 30px;
+  height: 280px;
+  margin:50px 20px 50px 30px;
+}
+.click{
+  padding-bottom: 10px;
+  color:#3a4d5b;
+}
+#round:hover{
+  background-color:  #00DBD0;
+  color:white;
+}
+#cards .row{
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+
+.cards-icon{
+  height:110px;
+  width:140px;
+  border-radius: 150%;
+  margin-bottom: 10px;
+}
+.row{
+  margin-left: auto;
+}
+
+/* Download buttons */
+#abcd p{
+  margin: 30px 20px 0 0;
+  line-height: normal;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+  background-color: #00DBD0;
+font-size: 1.3rem;
+}
+.btn{
+  padding:10px 40px;
+
+}
+/* Title */
+
+#title{
+font-size:1.5rem;
+color: black;
+text-align: left;
+background-image: url("images/main12.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+  background-position: center;
+}
+
+#abcd {
+  padding: 0% 3% ;
+
+}
+
+
+.title-image{
+  width:115%;
+height:142%;
+  position: absolute;
+
+}
+
+/* Features */
+
+#features #cards{
+  position: relative;
+  z-index: 1;
+
+}
+.features-title {
+  font-size: 1.5rem;
+}
+.features .cards{
+  color:#8f8f8f;
+
+}
+.features-icon {
+  color:;
+  margin-bottom: 1rem;
+
+}
+.features-icon:hover {
+  color:#00DBD0;
+}
+.features-box {
+text-align:  center;
+padding:4%;
+}
+.sponsor{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#pp{
+
+}
+
+/* Testimonials */
+#testimonials{
+    background-color:#00DBD0;
+
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+}
+.testimonials-heading{
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color:#3a4d5b;
+  padding-bottom: 50px;
+}
+.testimonial-image{
+  width:10%;
+	height: 20%;
+  border-radius: 100%;
+  margin:15px;
+
+}
+
+}
+
+#testimonialControls{
+  /* padding:10px; */
+}
+
+/* Press */
+
+#press{
+  background-color:white;
+  padding:100px 60px;
+}
+.press-logo{
+  width:20% ;
+  margin:0px 20px;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+}
+.price-title{
+  font-size: 1.5rem;
+}
+.pricing-card{
+  padding:3% 2%;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Call to action */
+
+#cta{
+  margin: 100px 0;
+  color: white;
+}
+.cta-button{
+  margin:0 20px 150px;
+}
+
+/* Footer */
+
+#footer{
+  background-image: url("images/main5.PNG");
+  padding:100px 0;
+  color:white;
+}
+.footer-icon{
+  margin:20px 10px ;
+}
+.footer-icon:hover{
+/* background-color: #00DBD0; */
+}
+
+
+@media (max-width:1054px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#subfor{
+  width: 10%;
+  background-color: #00DBD0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+	position: relative;
+
+}
+
+#newmail{
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+
+}
+
+.newsletter{
+  padding: 70px 70px;
+}
+
+/* Explore Now button */
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.buttons {
+  margin-top: 50px;
+  border-radius: 30px;
+  margin-bottom: 0;
+}
+
+.blob-btn {
+  z-index: 1;
+  position: relative;
+  padding: 20px 46px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.blob-btn:before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #00DBD0;;
+  border-radius: 30px;
+}
+.blob-btn:after {
+  content: "";
+  z-index: -2;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s 0.2s;
+  transition: all 0.3s 0.2s;
+  border-radius: 30px;
+}
+.blob-btn:hover {
+  color: #FFFFFF;
+  border-radius: 30px;
+}
+.blob-btn:hover:after {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  left: 0;
+  top: 0;
+  border-radius: 30px;
+}
+.blob-btn__inner {
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background: #ffffff;
+}
+.blob-btn__blobs {
+  position: relative;
+  display: block;
+  height: 100%;
+  -webkit-filter: url("#goo");
+          filter: url("#goo");
+}
+.blob-btn__blob {
+  position: absolute;
+  top: 2px;
+  width: 25%;
+  height: 100%;
+  background: #00DBD0;
+  border-radius: 100%;
+  -webkit-transform: translate3d(0, 150%, 0) scale(1.7);
+          transform: translate3d(0, 150%, 0) scale(1.7);
+  -webkit-transition: -webkit-transform 0.45s;
+  transition: -webkit-transform 0.45s;
+  transition: transform 0.45s;
+  transition: transform 0.45s, -webkit-transform 0.45s;
+}
+@supports ((-webkit-filter: url("#goo")) or (filter: url("#goo"))) {
+  .blob-btn__blob {
+    -webkit-transform: translate3d(0, 150%, 0) scale(1.4);
+            transform: translate3d(0, 150%, 0) scale(1.4);
+  }
+}
+.blob-btn__blob:nth-child(1) {
+  left: 0%;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.blob-btn__blob:nth-child(2) {
+  left: 30%;
+  -webkit-transition-delay: 0.08s;
+          transition-delay: 0.08s;
+}
+.blob-btn__blob:nth-child(3) {
+  left: 60%;
+  -webkit-transition-delay: 0.16s;
+          transition-delay: 0.16s;
+}
+.blob-btn__blob:nth-child(4) {
+  left: 90%;
+  -webkit-transition-delay: 0.24s;
+          transition-delay: 0.24s;
+}
+.blob-btn:hover .blob-btn__blob {
+  -webkit-transform: translateZ(0) scale(1.7);
+          transform: translateZ(0) scale(1.7);
+}
+@supports ((-webkit-filter: url("#goo")) or (filter: url("#goo"))) {
+  .blob-btn:hover .blob-btn__blob {
+    -webkit-transform: translateZ(0) scale(1.4);
+            transform: translateZ(0) scale(1.4);
+  }
+}
+#countdown{
+  color: blue;
+}

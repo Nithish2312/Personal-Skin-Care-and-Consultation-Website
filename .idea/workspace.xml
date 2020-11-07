@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e088ed38-4ee6-43c1-a139-14a96d1b379a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1izhgJKMeBt7M9DxOdO5MF7XVuU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/About Us" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\alluracare\About Us" />
+      <recent name="C:\xampp\htdocs\alluracare\allurashop" />
+      <recent name="C:\xampp\htdocs\alluracare\AlluraStudio" />
+      <recent name="C:\xampp\htdocs\alluracare\Contact Us" />
+      <recent name="C:\xampp\htdocs\alluracare\homepage" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e088ed38-4ee6-43c1-a139-14a96d1b379a" name="Default Changelist" comment="" />
+      <created>1602916437839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602916437839</updated>
+      <workItem from="1602916438940" duration="5104000" />
+      <workItem from="1603002729399" duration="1966000" />
+      <workItem from="1603031034060" duration="3797000" />
+      <workItem from="1603037682188" duration="2937000" />
+      <workItem from="1603085204364" duration="13276000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603034847586">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603034847586" />
+    <state x="592" y="160" key="NewPhpClassDialog" timestamp="1602921374324">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="592" y="160" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1602921374324" />
+    <state x="617" y="360" key="NewPhpFileDialog" timestamp="1603038803156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="617" y="360" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1603038803156" />
+  </component>
+</project>
